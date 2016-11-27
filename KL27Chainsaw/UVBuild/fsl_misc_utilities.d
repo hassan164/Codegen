@@ -1,0 +1,10 @@
+.\uvbuild\fsl_misc_utilities.o: SDK\platform\utilities\src\fsl_misc_utilities.c
+.\uvbuild\fsl_misc_utilities.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\uvbuild\fsl_misc_utilities.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\uvbuild\fsl_misc_utilities.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\uvbuild\fsl_misc_utilities.o: .\SDK\platform\utilities\inc\fsl_misc_utilities.h
+.\uvbuild\fsl_misc_utilities.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\uvbuild\fsl_misc_utilities.o: .\SDK\platform\utilities\inc\fsl_debug_console.h
+.\uvbuild\fsl_misc_utilities.o: .\SDK\platform\osa\inc\fsl_os_abstraction.h
+.\uvbuild\fsl_misc_utilities.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\uvbuild\fsl_misc_utilities.o: .\SDK\platform\osa\inc\fsl_os_abstraction_bm.h

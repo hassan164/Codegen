@@ -1,0 +1,123 @@
+<CodeGenerationInfo>
+  <ToolchainSettings />
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/adConv1.h" FileDate="2016-11-21, 11:53:54" FileAge="1479725634930" FileType="45637" CompNumb="48" />
+      <File Name="Generated_Code/GPIOB.h" FileDate="2016-11-11, 13:49:06" FileAge="1478868546342" FileType="45637" CompNumb="19" />
+      <File Name="SDK/platform/hal/src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.c" FileDate="2016-11-11, 11:57:12" FileAge="1478861832939" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833768" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/adConv1.c" FileDate="2016-11-26, 13:34:08" FileAge="1480163648195" FileType="45637" CompNumb="48" />
+      <File Name="Generated_Code/GPIOA.h" FileDate="2016-11-11, 12:00:04" FileAge="1478862004547" FileType="45637" CompNumb="15" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2016-11-11, 12:00:04" FileAge="1478862004351" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833254" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2016-11-17, 11:24:18" FileAge="1479378258356" FileType="1048576" CompNumb="45" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2016-11-11, 11:57:12" FileAge="1478861832959" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833147" FileType="1048576" CompNumb="12" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2016-11-11, 11:57:12" FileAge="1478861832579" FileType="16384" CompNumb="1" />
+      <File Name="Documentation/doxygen/GPIOB_component.txt" FileDate="2016-11-11, 13:49:06" FileAge="1478868546352" FileType="45637" CompNumb="19" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833027" FileType="1048576" CompNumb="2" />
+      <File Name="Static_Code/IO_Map/core_cm0plus_PEx.h" FileDate="2016-11-11, 12:00:04" FileAge="1478862004495" FileType="1048576" CompNumb="1" />
+      <File Name="Static_Code/Peripherals/GPIOA_Init.h" FileDate="2016-11-11, 12:00:04" FileAge="1478862004323" FileType="1048576" CompNumb="15" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833230" FileType="1048576" CompNumb="1" />
+      <File Name="Static_Code/Peripherals/GPIOA_Init.c" FileDate="2016-11-11, 12:00:04" FileAge="1478862004311" FileType="1048576" CompNumb="15" />
+      <File Name="Generated_Code/Init_Config.h" FileDate="2016-11-13, 19:00:14" FileAge="1479060014988" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833003" FileType="1048576" CompNumb="7" />
+      <File Name="Generated_Code/GPIOA_Config.h" FileDate="2016-11-11, 12:00:04" FileAge="1478862004523" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833640" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833504" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/MKL27Z644/include/MKL27Z644_extension.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833298" FileType="1048576" CompNumb="1" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.scf" FileDate="2016-11-11, 11:57:13" FileAge="1478861833636" FileType="8" CompNumb="1" />
+      <File Name="Sources/main.c" FileDate="2016-11-26, 13:20:21" FileAge="1480162821351" FileType="128" />
+      <File Name="Generated_Code/board.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833704" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/osa1.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833672" FileType="45637" CompNumb="12" />
+      <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2016-11-11, 11:57:12" FileAge="1478861832983" FileType="1048576" CompNumb="7" />
+      <File Name="Generated_Code/osa1.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833668" FileType="45637" CompNumb="12" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-11-11, 11:57:13" FileAge="1478861833608" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833119" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/mcglite/fsl_mcglite_hal.c" FileDate="2016-11-11, 11:57:12" FileAge="1478861832863" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_uart_hal.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833418" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/MKL27Z644/startup/arm/startup_MKL27Z644.s" FileDate="2016-11-26, 15:27:55" FileAge="1480170475465" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2016-11-11, 11:57:12" FileAge="1478861832963" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/drivers/inc/fsl_adc16_driver.h" FileDate="2016-11-21, 11:53:54" FileAge="1479725634530" FileType="1048576" CompNumb="48" />
+      <File Name="Documentation/KL27Chainsaw_Settings.xml" FileDate="2016-11-26, 13:20:21" FileAge="1480162821701" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/tpm/fsl_tpm_common.c" FileDate="2016-11-11, 13:18:56" FileAge="1478866736147" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833538" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833131" FileType="1048576" CompNumb="14" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833538" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833230" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/utilities/src/fsl_misc_utilities.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833508" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/gpio4.h" FileDate="2016-11-26, 12:31:22" FileAge="1480159882912" FileType="45637" CompNumb="45" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833207" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/gpio4.c" FileDate="2016-11-26, 12:39:56" FileAge="1480160396892" FileType="45637" CompNumb="45" />
+      <File Name="SDK/platform/hal/inc/fsl_tpm_hal.h" FileDate="2016-11-11, 13:18:56" FileAge="1478866736137" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/lpuart/fsl_lpuart_hal.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833450" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/inc/fsl_tpm_driver.h" FileDate="2016-11-11, 13:18:56" FileAge="1478866736227" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/tpmTmr3.h" FileDate="2016-11-17, 11:12:04" FileAge="1479377524117" FileType="45637" CompNumb="40" />
+      <File Name="SDK/platform/system/src/clock/MKL27Z644/fsl_clock_MKL27Z644.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833067" FileType="1048576" CompNumb="2" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-11-26, 13:20:21" FileAge="1480162821371" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/adc16/fsl_adc16_common.c" FileDate="2016-11-21, 11:53:54" FileAge="1479725634430" FileType="1048576" CompNumb="48" />
+      <File Name="Generated_Code/tpmTmr3.c" FileDate="2016-11-17, 11:12:03" FileAge="1479377523988" FileType="45637" CompNumb="40" />
+      <File Name="SDK/platform/utilities/src/print_scan.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833520" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/tpmTmr2.h" FileDate="2016-11-11, 14:46:59" FileAge="1478872019359" FileType="45637" CompNumb="24" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2016-11-17, 11:24:18" FileAge="1479378258328" FileType="1048576" CompNumb="45" />
+      <File Name="SDK/platform/system/src/clock/MKL27Z644/fsl_clock_MKL27Z644.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833047" FileType="1048576" CompNumb="2" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-11-26, 16:08:30" FileAge="1480172910435" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/utilities/src/print_scan.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833516" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/tpmTmr2.c" FileDate="2016-11-18, 15:53:51" FileAge="1479480831438" FileType="45637" CompNumb="24" />
+      <File Name="Generated_Code/tpmTmr1.h" FileDate="2016-11-11, 13:18:56" FileAge="1478866736407" FileType="45637" CompNumb="17" />
+      <File Name="SDK/platform/utilities/inc/fsl_debug_console.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833528" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/tpmTmr1.c" FileDate="2016-11-11, 13:18:56" FileAge="1478866736397" FileType="45637" CompNumb="17" />
+      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833266" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/tpm/fsl_tpm_driver.c" FileDate="2016-11-11, 13:18:56" FileAge="1478866736197" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_adc16_hal.h" FileDate="2016-11-21, 11:53:54" FileAge="1479725634420" FileType="1048576" CompNumb="49" />
+      <File Name="Documentation/doxygen/GPIOA_component.txt" FileDate="2016-11-11, 12:00:04" FileAge="1478862004555" FileType="45637" CompNumb="15" />
+      <File Name="SDK/platform/hal/inc/fsl_mcglite_hal_modes.h" FileDate="2016-11-11, 11:57:12" FileAge="1478861832907" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/pin_init.h" FileDate="2016-11-26, 13:20:21" FileAge="1480162821241" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833099" FileType="1048576" CompNumb="2" />
+      <File Name="Sources/Events.h" FileDate="2016-11-26, 13:20:21" FileAge="1480162821441" FileType="131328" />
+      <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833326" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/pin_init.c" FileDate="2016-11-26, 13:34:08" FileAge="1480163648183" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833234" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2016-11-11, 12:00:04" FileAge="1478862004371" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/MKL27Z644/include/MKL27Z644.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833286" FileType="1048576" CompNumb="1" />
+      <File Name="Sources/Events.c" FileDate="2016-11-26, 15:38:48" FileAge="1480171128607" FileType="131328" />
+      <File Name="Generated_Code/GPIOB_Config.h" FileDate="2016-11-11, 13:49:06" FileAge="1478868546342" FileType="45637" CompNumb="19" />
+      <File Name="Static_Code/Peripherals/GPIOB_Init.h" FileDate="2016-11-11, 13:49:06" FileAge="1478868546149" FileType="1048576" CompNumb="19" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833195" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_mcglite_hal.h" FileDate="2016-11-11, 11:57:12" FileAge="1478861832899" FileType="1048576" CompNumb="0" />
+      <File Name="Documentation/KL27Chainsaw.txt" FileDate="2016-11-26, 13:20:22" FileAge="1480162822311" FileType="3072" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833171" FileType="1048576" CompNumb="12" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833167" FileType="1048576" CompNumb="12" />
+      <File Name="Static_Code/Peripherals/GPIOB_Init.c" FileDate="2016-11-11, 13:49:06" FileAge="1478868546139" FileType="1048576" CompNumb="19" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833031" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/devices/MKL27Z644/include/MKL27Z644_features.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833310" FileType="1048576" CompNumb="1" />
+      <File Name="Static_Code/Peripherals/UART2_Init.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2016-11-11, 11:57:12" FileAge="1478861832919" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/drivers/src/adc16/fsl_adc16_driver.c" FileDate="2016-11-21, 11:53:54" FileAge="1479725634500" FileType="1048576" CompNumb="48" />
+      <File Name="Static_Code/Peripherals/UART2_Init.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833532" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2016-11-17, 11:24:18" FileAge="1479378258344" FileType="1048576" CompNumb="45" />
+      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833127" FileType="1048576" CompNumb="14" />
+      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833572" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833087" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/hal/src/mcglite/fsl_mcglite_hal_modes.c" FileDate="2016-11-11, 11:57:12" FileAge="1478861832875" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/SDK/platform/devices/MKL27Z644/startup/system_MKL27Z644.h" FileDate="2016-11-13, 13:53:12" FileAge="1479041592253" FileType="45637" CompNumb="2" />
+      <File Name="Documentation/doxygen/KL27Chainsaw_project.txt" FileDate="2016-11-13, 19:00:14" FileAge="1479060014946" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/hal/src/adc16/fsl_adc16_hal.c" FileDate="2016-11-21, 11:53:54" FileAge="1479725634385" FileType="1048576" CompNumb="49" />
+      <File Name="SDK/platform/devices/MKL27Z644/startup/system_MKL27Z644.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833564" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_lpuart_hal.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833466" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2016-11-26, 13:20:21" FileAge="1480162821321" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2016-11-11, 11:57:13" FileAge="1478861833107" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/MKL27Z644/include/fsl_bitaccess.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833278" FileType="1048576" CompNumb="1" />
+      <File Name="ProjectInfo.xml" FileDate="2016-11-26, 13:20:22" FileAge="1480162822251" FileType="45637" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-11-26, 13:34:08" FileAge="1480163648284" FileType="45637" CompNumb="1" />
+      <File Name="Static_Code/System/Peripherals_Init.h" FileDate="2016-11-11, 12:00:04" FileAge="1478862004227" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h" FileDate="2016-11-11, 11:57:12" FileAge="1478861832951" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/tpm/fsl_tpm_hal.c" FileDate="2016-11-11, 13:18:56" FileAge="1478866736087" FileType="1048576" CompNumb="0" />
+      <File Name="Static_Code/System/Peripherals_Init.c" FileDate="2016-11-11, 12:00:04" FileAge="1478862004219" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833784" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/CMSIS/Include/core_cm0plus.h" FileDate="2016-11-11, 11:57:13" FileAge="1478861833187" FileType="1048576" CompNumb="1" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>57</CodeGenReference>
+</CodeGenerationInfo>

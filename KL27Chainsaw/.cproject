@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.processorexpert.cdt.gcc.configuration.debug.695329923">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.processorexpert.cdt.gcc.configuration.debug.695329923" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<macros>
+					<stringMacro name="PROJECT_KSDK_PATH" type="VALUE_TEXT" value="C:\Freescale\KSDK_1.3.0"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="KL27Chainsaw" buildProperties="" description="" id="com.processorexpert.cdt.gcc.configuration.debug.695329923" name="Debug" parent="com.processorexpert.cdt.gcc.configuration.debug">
+					<folderInfo id="com.processorexpert.cdt.gcc.configuration.debug.695329923." name="/" resourcePath="">
+						<toolChain id="com.processorexpert.cdt.gcc.toolchain.debug.292401644" name="Empty Tool Chain" superClass="com.processorexpert.cdt.gcc.toolchain.debug">
+							<targetPlatform id="com.processorexpert.cdt.gcc.configuration.debug.695329923..650062820" name=""/>
+							<builder buildPath="${workspace_loc:/KL27Chainsaw}/Debug" id="com.processorexpert.cdt.gcc.toolchain.debug.builder.1715612140" name="Processor Expert Configuration Debug Builder.Debug" superClass="com.processorexpert.cdt.gcc.toolchain.debug.builder"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.processorexpert.cdt.gcc.configuration.debug.695329923..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding=".settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="KL27Chainsaw.com.processorexpert.cdt.gcc.toolchain.projectType.1667343808" name="Processor Expert Configuration Project" projectType="com.processorexpert.cdt.gcc.toolchain.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+</cproject>

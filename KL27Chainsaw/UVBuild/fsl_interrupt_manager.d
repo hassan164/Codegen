@@ -1,0 +1,17 @@
+.\uvbuild\fsl_interrupt_manager.o: SDK\platform\system\src\interrupt\fsl_interrupt_manager.c
+.\uvbuild\fsl_interrupt_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\system\inc\fsl_interrupt_manager.h
+.\uvbuild\fsl_interrupt_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\uvbuild\fsl_interrupt_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\uvbuild\fsl_interrupt_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\devices\fsl_device_registers.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\CMSIS\Include\core_cm0plus.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\CMSIS\Include\core_cmInstr.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\CMSIS\Include\core_cmFunc.h
+.\uvbuild\fsl_interrupt_manager.o: .\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h
+.\uvbuild\fsl_interrupt_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\uvbuild\fsl_interrupt_manager.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h

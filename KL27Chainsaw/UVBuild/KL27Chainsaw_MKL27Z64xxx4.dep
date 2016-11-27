@@ -1,0 +1,1192 @@
+Dependencies for Project 'KL27Chainsaw', Target 'MKL27Z64xxx4': (DO NOT MODIFY !)
+F (.\SDK\platform\devices\MKL27Z644\startup\arm\startup_MKL27Z644.s)(0x58399BEB)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --cpreproc --diag_suppress=1609,1581-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "MKL27Z64xxx4 SETA 1"--list .\startup_mkl27z644.lst --xref -o .\uvbuild\startup_mkl27z644.o --depend .\uvbuild\startup_mkl27z644.d)
+F (.\Generated_Code\Cpu.c)(0x5839A56E)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\cpu.o --omf_browse .\uvbuild\cpu.crf --depend .\uvbuild\cpu.d)
+I (Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (Generated_Code\osa1.h)(0x5825A409)
+I (Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+F (.\Sources\Events.c)(0x58399E78)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\events.o --omf_browse .\uvbuild\events.crf --depend .\uvbuild\events.d)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (Sources\Events.h)(0x58397E05)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+I (Sources\controllers_forgeneration.h)(0x58249718)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E9286)
+I (Sources\rtwtypes.h)(0x58249718)
+I (Sources\controllers_forgeneration_types.h)(0x58249718)
+I (Sources\controllers_forgeneration_private.h)(0x58249718)
+F (.\Static_Code\Peripherals\GPIOA_Init.c)(0x5825A4B4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\gpioa_init.o --omf_browse .\uvbuild\gpioa_init.crf --depend .\uvbuild\gpioa_init.d)
+I (Static_Code\Peripherals\GPIOA_Init.h)(0x5825A4B4)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\Init_Config.h)(0x5828AA2E)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\GPIOA_Config.h)(0x5825A4B4)
+I (.\Static_Code\Peripherals\GPIOA_Init.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOA.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOB_Config.h)(0x5825BE42)
+I (.\Static_Code\Peripherals\GPIOB_Init.h)(0x5825BE42)
+I (.\Generated_Code\GPIOB.h)(0x5825BE42)
+F (.\Static_Code\System\PE_low_level_init.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\pe_low_level_init.o --omf_browse .\uvbuild\pe_low_level_init.crf --depend .\uvbuild\pe_low_level_init.d)
+I (.\Generated_Code\PE_low_level_init.h)(0x5825A409)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+I (.\Generated_Code\board.h)(0x5825A409)
+I (Static_Code\System\Peripherals_Init.h)(0x5825A4B4)
+F (.\Static_Code\System\Peripherals_Init.c)(0x5825A4B4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\peripherals_init.o --omf_browse .\uvbuild\peripherals_init.crf --depend .\uvbuild\peripherals_init.d)
+I (Static_Code\System\Peripherals_Init.h)(0x5825A4B4)
+I (.\Generated_Code\Init_Config.h)(0x5828AA2E)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\GPIOA_Config.h)(0x5825A4B4)
+I (.\Static_Code\Peripherals\GPIOA_Init.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOA.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOB_Config.h)(0x5825BE42)
+I (.\Static_Code\Peripherals\GPIOB_Init.h)(0x5825BE42)
+I (.\Generated_Code\GPIOB.h)(0x5825BE42)
+F (.\Generated_Code\clockMan1.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\clockman1.o --omf_browse .\uvbuild\clockman1.crf --depend .\uvbuild\clockman1.d)
+I (Generated_Code\clockMan1.h)(0x5825A409)
+I (Generated_Code\osa1.h)(0x5825A409)
+I (Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+F (.\SDK\platform\system\src\clock\MKL27Z644\fsl_clock_MKL27Z644.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_clock_mkl27z644.o --omf_browse .\uvbuild\fsl_clock_mkl27z644.crf --depend .\uvbuild\fsl_clock_mkl27z644.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+F (.\SDK\platform\system\src\clock\fsl_clock_manager.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_clock_manager.o --omf_browse .\uvbuild\fsl_clock_manager.crf --depend .\uvbuild\fsl_clock_manager.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+F (.\SDK\platform\system\src\clock\fsl_clock_manager_common.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_clock_manager_common.o --omf_browse .\uvbuild\fsl_clock_manager_common.crf --depend .\uvbuild\fsl_clock_manager_common.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+F (.\SDK\platform\utilities\src\fsl_debug_console.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_debug_console.o --omf_browse .\uvbuild\fsl_debug_console.crf --depend .\uvbuild\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\utilities\inc\fsl_debug_console.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_uart_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_lpuart_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (SDK\platform\utilities\src\print_scan.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E9286)
+F (.\SDK\platform\hal\src\gpio\fsl_gpio_hal.c)(0x5825A4B4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_gpio_hal.o --omf_browse .\uvbuild\fsl_gpio_hal.crf --depend .\uvbuild\fsl_gpio_hal.d)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\system\src\interrupt\fsl_interrupt_manager.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_interrupt_manager.o --omf_browse .\uvbuild\fsl_interrupt_manager.crf --depend .\uvbuild\fsl_interrupt_manager.d)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\hal\src\lpuart\fsl_lpuart_hal.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_lpuart_hal.o --omf_browse .\uvbuild\fsl_lpuart_hal.crf --depend .\uvbuild\fsl_lpuart_hal.d)
+I (.\SDK\platform\hal\inc\fsl_lpuart_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\hal\src\mcglite\fsl_mcglite_hal.c)(0x5825A408)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_mcglite_hal.o --omf_browse .\uvbuild\fsl_mcglite_hal.crf --depend .\uvbuild\fsl_mcglite_hal.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\hal\src\mcglite\fsl_mcglite_hal_modes.c)(0x5825A408)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_mcglite_hal_modes.o --omf_browse .\uvbuild\fsl_mcglite_hal_modes.crf --depend .\uvbuild\fsl_mcglite_hal_modes.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+F (.\SDK\platform\utilities\src\fsl_misc_utilities.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_misc_utilities.o --omf_browse .\uvbuild\fsl_misc_utilities.crf --depend .\uvbuild\fsl_misc_utilities.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\utilities\inc\fsl_misc_utilities.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\utilities\inc\fsl_debug_console.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+F (.\SDK\platform\osa\src\fsl_os_abstraction_bm.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_os_abstraction_bm.o --omf_browse .\uvbuild\fsl_os_abstraction_bm.crf --depend .\uvbuild\fsl_os_abstraction_bm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+F (.\SDK\platform\hal\src\osc\fsl_osc_hal.c)(0x5825A408)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_osc_hal.o --omf_browse .\uvbuild\fsl_osc_hal.crf --depend .\uvbuild\fsl_osc_hal.d)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\hal\src\port\fsl_port_hal.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_port_hal.o --omf_browse .\uvbuild\fsl_port_hal.crf --depend .\uvbuild\fsl_port_hal.d)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\drivers\src\rtc\fsl_rtc_common.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_rtc_common.o --omf_browse .\uvbuild\fsl_rtc_common.crf --depend .\uvbuild\fsl_rtc_common.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\hal\src\rtc\fsl_rtc_hal.c)(0x5825A408)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_rtc_hal.o --omf_browse .\uvbuild\fsl_rtc_hal.crf --depend .\uvbuild\fsl_rtc_hal.d)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\hal\src\sim\MKL27Z644\fsl_sim_hal_MKL27Z644.c)(0x5825A408)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_sim_hal_mkl27z644.o --omf_browse .\uvbuild\fsl_sim_hal_mkl27z644.crf --depend .\uvbuild\fsl_sim_hal_mkl27z644.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+F (.\SDK\platform\hal\src\uart\fsl_uart_hal.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_uart_hal.o --omf_browse .\uvbuild\fsl_uart_hal.crf --depend .\uvbuild\fsl_uart_hal.d)
+I (.\SDK\platform\hal\inc\fsl_uart_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\Generated_Code\hardware_init.c)(0x58397E05)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\hardware_init.o --omf_browse .\uvbuild\hardware_init.crf --depend .\uvbuild\hardware_init.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (Generated_Code\board.h)(0x5825A409)
+I (Generated_Code\pin_init.h)(0x58397E05)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+F (.\Sources\main.c)(0x58397E05)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\main.o --omf_browse .\uvbuild\main.crf --depend .\uvbuild\main.d)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (Sources\Events.h)(0x58397E05)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+I (.\Generated_Code\Init_Config.h)(0x5828AA2E)
+I (.\Generated_Code\GPIOA_Config.h)(0x5825A4B4)
+I (.\Static_Code\Peripherals\GPIOA_Init.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOA.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOB_Config.h)(0x5825BE42)
+I (.\Static_Code\Peripherals\GPIOB_Init.h)(0x5825BE42)
+I (.\Generated_Code\GPIOB.h)(0x5825BE42)
+F (.\Generated_Code\osa1.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\osa1.o --omf_browse .\uvbuild\osa1.crf --depend .\uvbuild\osa1.d)
+I (Generated_Code\osa1.h)(0x5825A409)
+I (Generated_Code\clockMan1.h)(0x5825A409)
+I (Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+F (.\Generated_Code\pin_init.c)(0x58398140)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\pin_init.o --omf_browse .\uvbuild\pin_init.crf --depend .\uvbuild\pin_init.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (Generated_Code\pin_init.h)(0x58397E05)
+F (.\SDK\platform\utilities\src\print_scan.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\print_scan.o --omf_browse .\uvbuild\print_scan.crf --depend .\uvbuild\print_scan.d)
+I (SDK\platform\utilities\src\print_scan.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E9286)
+F (.\SDK\platform\devices\startup.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\startup.o --omf_browse .\uvbuild\startup.crf --depend .\uvbuild\startup.d)
+I (SDK\platform\devices\startup.h)(0x5825A409)
+I (SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.c)(0x5825A409)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\system_mkl27z644.o --omf_browse .\uvbuild\system_mkl27z644.crf --depend .\uvbuild\system_mkl27z644.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\drivers\src\tpm\fsl_tpm_common.c)(0x5825B730)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_tpm_common.o --omf_browse .\uvbuild\fsl_tpm_common.crf --depend .\uvbuild\fsl_tpm_common.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\drivers\src\tpm\fsl_tpm_driver.c)(0x5825B730)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_tpm_driver.o --omf_browse .\uvbuild\fsl_tpm_driver.crf --depend .\uvbuild\fsl_tpm_driver.d)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+F (.\SDK\platform\hal\src\tpm\fsl_tpm_hal.c)(0x5825B730)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_tpm_hal.o --omf_browse .\uvbuild\fsl_tpm_hal.crf --depend .\uvbuild\fsl_tpm_hal.d)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+F (.\Generated_Code\tpmTmr1.c)(0x5825B730)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\tpmtmr1.o --omf_browse .\uvbuild\tpmtmr1.crf --depend .\uvbuild\tpmtmr1.d)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+F (.\Static_Code\Peripherals\GPIOB_Init.c)(0x5825BE42)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\gpiob_init.o --omf_browse .\uvbuild\gpiob_init.crf --depend .\uvbuild\gpiob_init.d)
+I (Static_Code\Peripherals\GPIOB_Init.h)(0x5825BE42)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\Init_Config.h)(0x5828AA2E)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\GPIOA_Config.h)(0x5825A4B4)
+I (.\Static_Code\Peripherals\GPIOA_Init.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOA.h)(0x5825A4B4)
+I (.\Generated_Code\GPIOB_Config.h)(0x5825BE42)
+I (.\Static_Code\Peripherals\GPIOB_Init.h)(0x5825BE42)
+I (.\Generated_Code\GPIOB.h)(0x5825BE42)
+F (.\Sources\controllers_forgeneration.c)(0x58249718)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\controllers_forgeneration.o --omf_browse .\uvbuild\controllers_forgeneration.crf --depend .\uvbuild\controllers_forgeneration.d)
+I (Sources\controllers_forgeneration.h)(0x58249718)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E9286)
+I (Sources\rtwtypes.h)(0x58249718)
+I (Sources\controllers_forgeneration_types.h)(0x58249718)
+I (Sources\controllers_forgeneration_private.h)(0x58249718)
+F (.\Sources\controllers_forgeneration_data.c)(0x58249718)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\controllers_forgeneration_data.o --omf_browse .\uvbuild\controllers_forgeneration_data.crf --depend .\uvbuild\controllers_forgeneration_data.d)
+I (Sources\controllers_forgeneration.h)(0x58249718)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E9286)
+I (Sources\rtwtypes.h)(0x58249718)
+I (Sources\controllers_forgeneration_types.h)(0x58249718)
+I (Sources\controllers_forgeneration_private.h)(0x58249718)
+F (.\Generated_Code\tpmTmr2.c)(0x582F15FF)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\tpmtmr2.o --omf_browse .\uvbuild\tpmtmr2.crf --depend .\uvbuild\tpmtmr2.d)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+F (.\Generated_Code\tpmTmr3.c)(0x582D8273)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\tpmtmr3.o --omf_browse .\uvbuild\tpmtmr3.crf --depend .\uvbuild\tpmtmr3.d)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+F (.\SDK\platform\drivers\src\gpio\fsl_gpio_common.c)(0x582D8552)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_gpio_common.o --omf_browse .\uvbuild\fsl_gpio_common.crf --depend .\uvbuild\fsl_gpio_common.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\drivers\src\gpio\fsl_gpio_driver.c)(0x582D8552)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_gpio_driver.o --omf_browse .\uvbuild\fsl_gpio_driver.crf --depend .\uvbuild\fsl_gpio_driver.d)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+F (.\Generated_Code\gpio4.c)(0x5839748C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\gpio4.o --omf_browse .\uvbuild\gpio4.crf --depend .\uvbuild\gpio4.d)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+F (.\Generated_Code\adConv1.c)(0x58398140)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\adconv1.o --omf_browse .\uvbuild\adconv1.crf --depend .\uvbuild\adconv1.d)
+I (.\Sources\Events.h)(0x58397E05)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\Generated_Code\clockMan1.h)(0x5825A409)
+I (.\Generated_Code\osa1.h)(0x5825A409)
+I (.\Generated_Code\Cpu.h)(0x58397E05)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)
+I (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)
+I (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)
+I (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)
+I (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)
+I (.\Generated_Code\pin_init.h)(0x58397E05)
+I (.\Generated_Code\tpmTmr1.h)(0x5825B730)
+I (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)
+I (.\Generated_Code\tpmTmr3.h)(0x582D8274)
+I (.\Generated_Code\adConv1.h)(0x5832D242)
+I (.\Generated_Code\gpio4.h)(0x5839728A)
+F (.\SDK\platform\drivers\src\adc16\fsl_adc16_common.c)(0x5832D242)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_adc16_common.o --omf_browse .\uvbuild\fsl_adc16_common.crf --depend .\uvbuild\fsl_adc16_common.d)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\SDK\platform\drivers\src\adc16\fsl_adc16_driver.c)(0x5832D242)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_adc16_driver.o --omf_browse .\uvbuild\fsl_adc16_driver.crf --depend .\uvbuild\fsl_adc16_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+I (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\../src/sim/MKL27Z644/fsl_sim_hal_MKL27Z644.h)(0x5825A408)
+I (.\SDK\platform\system\inc\../src/clock/MKL27Z644/fsl_clock_MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)
+I (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)
+I (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)
+F (.\SDK\platform\hal\src\adc16\fsl_adc16_hal.c)(0x5832D242)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ".\SDK\platform\hal\inc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\inc" -I ".\SDK\platform\osa\inc" -I ".\SDK\platform\drivers\inc" -I ".\SDK\platform\CMSIS\Include" -I ".\SDK\platform\devices" -I ".\SDK\platform\devices\MKL27Z644\include" -I ".\SDK\platform\utilities\src" -I ".\SDK\platform\utilities\inc" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\Generated_Code\SDK\platform\devices\MKL27Z644\startup" -I ".\Static_Code\IO_Map" -I ".\Static_Code\Peripherals" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\SDK\platform\devices\MKL27Z644\startup" -I ".\SDK\platform\devices" -I ".\SDK\platform\drivers\src\adc16" -I ".\SDK\platform\drivers\src\gpio" -I ".\SDK\platform\drivers\src\rtc" -I ".\SDK\platform\drivers\src\tpm" -I ".\SDK\platform\hal\src\adc16" -I ".\SDK\platform\hal\src\gpio" -I ".\SDK\platform\hal\src\lpuart" -I ".\SDK\platform\hal\src\mcglite" -I ".\SDK\platform\hal\src\osc" -I ".\SDK\platform\hal\src\port" -I ".\SDK\platform\hal\src\rtc" -I ".\SDK\platform\hal\src\sim\MKL27Z644" -I ".\SDK\platform\hal\src\tpm" -I ".\SDK\platform\hal\src\uart" -I ".\SDK\platform\osa\src" -I ".\SDK\platform\system\src\clock\MKL27Z644" -I ".\SDK\platform\system\src\clock" -I ".\SDK\platform\system\src\interrupt" -I ".\SDK\platform\utilities\src" -I ".\Sources" -I ".\Static_Code\Peripherals" -I ".\Static_Code\System" -I ".\SDK\platform\devices\MKL27Z644\startup\arm" --library_interface=armcc --library_type=microlib --c99 --diag_suppress=1296,186 -DFSL_OSA_BM_TIMER_CONFIG=2 -DCPU_MKL27Z64VLH4 -DKEIL-IC:\Users\Hassan\workspace.kds\KL27Chainsaw\RTE-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.12.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DMKL27Z64xxx4-o .\uvbuild\fsl_adc16_hal.o --omf_browse .\uvbuild\fsl_adc16_hal.crf --depend .\uvbuild\fsl_adc16_hal.d)
+I (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E9286)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574E9286)
+I (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)
+I (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)
+I (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h)(0x5825A409)
+I (.\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h)(0x5825A409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E9286)
+I (.\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h)(0x5825A409)
+F (.\Generated_Code\Cpu.h)(0x58397E05)()
+F (.\Sources\Events.h)(0x58397E05)()
+F (.\Generated_Code\GPIOA.h)(0x5825A4B4)()
+F (.\Generated_Code\GPIOA_Config.h)(0x5825A4B4)()
+F (.\Static_Code\Peripherals\GPIOA_Init.h)(0x5825A4B4)()
+F (.\Generated_Code\Init_Config.h)(0x5828AA2E)()
+F (.\SDK\platform\devices\MKL27Z644\include\MKL27Z644.h)(0x5825A409)()
+F (.\SDK\platform\devices\MKL27Z644\include\MKL27Z644_extension.h)(0x5825A409)()
+F (.\SDK\platform\devices\MKL27Z644\include\MKL27Z644_features.h)(0x5825A409)()
+F (.\Generated_Code\PE_low_level_init.h)(0x5825A409)()
+F (.\Static_Code\System\Peripherals_Init.h)(0x5825A4B4)()
+F (.\SDK\platform\CMSIS\Include\arm_common_tables.h)(0x5825A409)()
+F (.\SDK\platform\CMSIS\Include\arm_const_structs.h)(0x5825A409)()
+F (.\SDK\platform\CMSIS\Include\arm_math.h)(0x5825A409)()
+F (.\Generated_Code\board.h)(0x5825A409)()
+F (.\Generated_Code\clockMan1.h)(0x5825A409)()
+F (.\SDK\platform\CMSIS\Include\core_cm0plus.h)(0x5825A409)()
+F (.\Static_Code\IO_Map\core_cm0plus_PEx.h)(0x5825A4B4)()
+F (.\SDK\platform\CMSIS\Include\core_cmFunc.h)(0x5825A409)()
+F (.\SDK\platform\CMSIS\Include\core_cmInstr.h)(0x5825A409)()
+F (.\SDK\platform\CMSIS\Include\core_cmSimd.h)(0x5825A409)()
+F (.\SDK\platform\devices\MKL27Z644\include\fsl_bitaccess.h)(0x5825A409)()
+F (.\SDK\platform\system\src\clock\MKL27Z644\fsl_clock_MKL27Z644.h)(0x5825A409)()
+F (.\SDK\platform\system\inc\fsl_clock_manager.h)(0x5825A409)()
+F (.\SDK\platform\utilities\inc\fsl_debug_console.h)(0x5825A409)()
+F (.\SDK\platform\devices\fsl_device_registers.h)(0x5825A409)()
+F (.\SDK\platform\hal\inc\fsl_gpio_hal.h)(0x5825A4B4)()
+F (.\SDK\platform\system\inc\fsl_interrupt_manager.h)(0x5825A409)()
+F (.\SDK\platform\hal\inc\fsl_lpuart_hal.h)(0x5825A409)()
+F (.\SDK\platform\hal\inc\fsl_mcglite_hal.h)(0x5825A408)()
+F (.\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h)(0x5825A408)()
+F (.\SDK\platform\utilities\inc\fsl_misc_utilities.h)(0x5825A409)()
+F (.\SDK\platform\osa\inc\fsl_os_abstraction.h)(0x5825A409)()
+F (.\SDK\platform\osa\inc\fsl_os_abstraction_bm.h)(0x5825A409)()
+F (.\SDK\platform\hal\inc\fsl_osc_hal.h)(0x5825A408)()
+F (.\SDK\platform\hal\inc\fsl_port_hal.h)(0x5825A409)()
+F (.\SDK\platform\hal\inc\fsl_rtc_hal.h)(0x5825A409)()
+F (.\SDK\platform\hal\inc\fsl_sim_hal.h)(0x5825A408)()
+F (.\SDK\platform\hal\src\sim\MKL27Z644\fsl_sim_hal_MKL27Z644.h)(0x5825A408)()
+F (.\SDK\platform\hal\inc\fsl_uart_hal.h)(0x5825A409)()
+F (.\Generated_Code\osa1.h)(0x5825A409)()
+F (.\Generated_Code\pin_init.h)(0x58397E05)()
+F (.\SDK\platform\utilities\src\print_scan.h)(0x5825A409)()
+F (.\SDK\platform\devices\startup.h)(0x5825A409)()
+F (.\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h)(0x58286238)()
+F (.\SDK\platform\drivers\inc\fsl_tpm_driver.h)(0x5825B730)()
+F (.\SDK\platform\hal\inc\fsl_tpm_hal.h)(0x5825B730)()
+F (.\Generated_Code\tpmTmr1.h)(0x5825B730)()
+F (.\Generated_Code\GPIOB.h)(0x5825BE42)()
+F (.\Generated_Code\GPIOB_Config.h)(0x5825BE42)()
+F (.\Static_Code\Peripherals\GPIOB_Init.h)(0x5825BE42)()
+F (.\Sources\controllers_forgeneration.h)(0x58249718)()
+F (.\Sources\controllers_forgeneration_private.h)(0x58249718)()
+F (.\Sources\controllers_forgeneration_types.h)(0x58249718)()
+F (.\Sources\rtwtypes.h)(0x58249718)()
+F (.\Generated_Code\tpmTmr2.h)(0x5825CBD3)()
+F (.\Generated_Code\tpmTmr3.h)(0x582D8274)()
+F (.\SDK\platform\drivers\inc\fsl_gpio_driver.h)(0x582D8552)()
+F (.\Generated_Code\gpio4.h)(0x5839728A)()
+F (.\Generated_Code\adConv1.h)(0x5832D242)()
+F (.\SDK\platform\drivers\inc\fsl_adc16_driver.h)(0x5832D242)()
+F (.\SDK\platform\hal\inc\fsl_adc16_hal.h)(0x5832D242)()

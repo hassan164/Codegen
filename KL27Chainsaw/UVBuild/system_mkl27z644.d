@@ -1,0 +1,13 @@
+.\uvbuild\system_mkl27z644.o: SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.c
+.\uvbuild\system_mkl27z644.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\devices\fsl_device_registers.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\CMSIS\Include\core_cm0plus.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\CMSIS\Include\core_cmInstr.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\CMSIS\Include\core_cmFunc.h
+.\uvbuild\system_mkl27z644.o: .\Generated_Code\SDK\platform\devices\MKL27Z644\startup\system_MKL27Z644.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644_extension.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\devices\MKL27Z644/include/fsl_bitaccess.h
+.\uvbuild\system_mkl27z644.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\uvbuild\system_mkl27z644.o: .\SDK\platform\devices\MKL27Z644/include/MKL27Z644_features.h
